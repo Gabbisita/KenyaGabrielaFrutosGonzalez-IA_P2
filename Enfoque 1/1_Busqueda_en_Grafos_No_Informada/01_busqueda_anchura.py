@@ -2,10 +2,6 @@
 from collections import deque
 
 def busqueda_en_anchura(grafo, inicio, objetivo):
-    """
-    Busca el camino más corto en un grafo desde un nodo de inicio a un objetivo
-    usando el algoritmo de Búsqueda en Anchura (BFS).
-    """
     
     # Cola que guarda los caminos que necesitamos explorar. Empezamos con el nodo de inicio.
     cola = deque([[inicio]])
@@ -43,7 +39,7 @@ def busqueda_en_anchura(grafo, inicio, objetivo):
     # Si el bucle termina y no encontramos el objetivo, no existe un camino.
     return None
 
-#Ejemplo de aplicación
+#Ejemplo de uso
 if __name__ == "__main__":
     
     # 1. Definimos el grafo que vamos a recorrer.
@@ -64,7 +60,7 @@ if __name__ == "__main__":
     ciudad_inicio = 'Guadalajara'
     ciudad_destino = 'Chihuahua'
 
-    print(f"Buscando ruta de '{ciudad_inicio}' a '{ciudad_destino}'...")
+    print(f"Buscando ruta de '{ciudad_inicio}' a '{ciudad_destino}'")
     
     # 3. Llamamos a la función con nuestros datos.
     camino_encontrado = busqueda_en_anchura(mapa_ciudades, ciudad_inicio, ciudad_destino)
