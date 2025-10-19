@@ -30,7 +30,6 @@ def busqueda_ao_estrella(nodo_inicio, solucion):
     """
     global grafo, heuristica, costos
     print("ESTADO ACTUAL DEL GRAFO DE SOLUCIÓN:", solucion)
-    print("==========================================================")
     
     if nodo_inicio in solucion:
         return # Si el nodo ya tiene una solución marcada, no hacemos nada.
@@ -75,7 +74,7 @@ if __name__ == "__main__":
     
     busqueda_ao_estrella(nodo_inicial, solucion_encontrada)
     
-    print("\n\nBÚSQUEDA FINALIZADA")
+    print("\n\nBúsqueda finalizada")
     print("El plan de solución de menor costo encontrado es:")
     for nodo, plan in solucion_encontrada.items():
         print(f"  Para resolver '{nodo}', el mejor plan es ir a: {plan}")
