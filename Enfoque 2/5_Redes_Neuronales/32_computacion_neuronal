@@ -1,0 +1,28 @@
+La Computación Neuronal es el campo de estudio dedicado a entender los principios de procesamiento de información del cerebro y a desarrollar modelos computacionales inspirados en la estructura y función de las redes neuronales biológicas. Es la base teórica sobre la que se construyen las Redes Neuronales Artificiales (RNA) y el Aprendizaje Profundo.
+
+### Inspiración Biológica
+El punto de partida es la neurona biológica:
+- **Recepción**: Recibe señales de otras neuronas a través de las dendritas.
+- **Integración**: El soma (cuerpo celular) integra estas señales.
+- **Activación**: Si la señal total supera un cierto umbral, la neurona "dispara".
+- **Transmisión**: Envía una señal eléctrica a lo largo del axón a otras neuronas a través de las sinapsis.
+- **Aprendizaje**: La fuerza de estas conexiones sinápticas (la plasticidad sináptica) puede cambiar con el tiempo, lo cual es la base del aprendizaje y la memoria en el cerebro.
+
+### Modelo Artificial (Simplificado)
+La Computación Neuronal abstrae estos conceptos en un modelo matemático:
+- **Entradas**: Representan las señales de otras neuronas.
+- **Pesos Sinápticos**: Representan la fuerza de la conexión. Un peso positivo es excitatorio, uno negativo es inhibitorio.
+- **Suma Ponderada**: Se calcula la suma de las entradas multiplicadas por sus pesos, más un término de sesgo. Esto simula la integración en el soma.
+- **Función de Activación**: Una función (generalmente no lineal) que se aplica a la suma ponderada. Determina la "tasa de disparo" o salida de la neurona artificial. Modela el umbral de activación.
+- **Salida**: La señal final que la neurona envía a otras.
+
+### Redes y Aprendizaje
+Las neuronas artificiales se conectan en redes, usualmente organizadas en capas (entrada, ocultas, salida). La información fluye a través de la red. El aprendizaje en estas redes consiste en ajustar los pesos ($w_i$) y sesgos ($b$) para que la red produzca la salida deseada para una entrada dada. Algoritmos como la Retropropagación se encargan de realizar este ajuste.
+
+### Objetivo
+El objetivo no es crear una réplica exacta del cerebro, sino utilizar estos principios de procesamiento distribuido, paralelo y adaptativo para construir sistemas capaces de:
+- Aprender patrones complejos.
+- Generalizar a partir de datos.
+- Resolver problemas difíciles para los algoritmos tradicionales.
+
+Es el fundamento conceptual de modelos como el Perceptrón, ADALINE, Redes Multicapa y todo el campo del Aprendizaje Profundo.
