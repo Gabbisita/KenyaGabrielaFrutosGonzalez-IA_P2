@@ -132,6 +132,7 @@ def muestreo_gibbs(query_var, evidencia, estructura, cpts, vars_totales, num_mue
         # 3. Recolectar muestra después del burn-in
         if i >= burn_in:
             muestras_recolectadas.append(estado_actual[query_var])
+        
             
     # 4. Estimar la probabilidad a partir de las muestras
     if not muestras_recolectadas:
