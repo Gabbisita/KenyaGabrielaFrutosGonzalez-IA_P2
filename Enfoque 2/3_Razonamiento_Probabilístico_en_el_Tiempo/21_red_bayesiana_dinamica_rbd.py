@@ -63,3 +63,4 @@ if __name__ == "__main__":
         print(f"\n[Observación Día {i+1}: {obs}]")
         creencia_actual = forward_update(creencia_actual, obs)
         imprimir_creencia(creencia_actual, i+1)
+        
