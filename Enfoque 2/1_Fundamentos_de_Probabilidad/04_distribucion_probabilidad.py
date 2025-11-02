@@ -1,5 +1,4 @@
 # Definimos una distribución de probabilidad para la variable 'Clima'
-
 # P(Clima)
 distribucion_clima = {
     'Soleado': 0.6,
