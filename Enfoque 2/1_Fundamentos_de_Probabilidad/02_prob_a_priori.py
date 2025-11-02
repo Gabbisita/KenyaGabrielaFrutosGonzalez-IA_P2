@@ -1,5 +1,4 @@
 # Definimos la tabla de probabilidad conjunta P(DolorDeMuelas, Caries)
-#          Caries=True  Caries=False
 # Dolor=True    0.04         0.01     -> P(Dolor=True) = 0.05
 # Dolor=False   0.01         0.94     -> P(Dolor=False) = 0.95
 #              ------       ------
