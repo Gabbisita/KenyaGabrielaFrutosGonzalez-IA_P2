@@ -104,6 +104,7 @@ if __name__ == "__main__":
     for k in range(len(mu_est)):
         plt.plot(x_axis, pi_est[k] * norm.pdf(x_axis, mu_est[k], sigma_est[k]), label=f'Componente {k+1} Estimado')
         
+        
     plt.title('Ajuste de GMM con Algoritmo EM')
     plt.xlabel('Valor')
     plt.ylabel('Densidad')
