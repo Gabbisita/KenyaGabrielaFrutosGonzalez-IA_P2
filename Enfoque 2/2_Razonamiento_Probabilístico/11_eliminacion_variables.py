@@ -162,10 +162,12 @@ if __name__ == "__main__":
     
     print(f"Calculando P({query} | Pasto Mojado = True) usando (simulación simplificada de) Eliminación de Variables...")
     
+
     # Especificamos un orden de eliminación (no usado en esta versión simplificada)
     orden_eliminacion = ['Aspersor', 'Nublado']
     
     distribucion_resultado = eliminacion_variables_simple(query, evidencia, estructura_bn, cpts_bn, orden_eliminacion)
+    
     
     print("\nDistribución de Probabilidad Condicional Resultante:")
     for valor, prob in distribucion_resultado.items():
