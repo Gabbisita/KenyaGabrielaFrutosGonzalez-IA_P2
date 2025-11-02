@@ -2,7 +2,6 @@ import itertools
 
 # Definir una Tabla de Probabilidad Conjunta
 # Creamos una tabla donde A y C son condicionalmente independientes dado B.
-# (Los valores específicos son un ejemplo que cumple esta propiedad)
 # Clave: (Valor_A, Valor_B, Valor_C), Valor: Probabilidad
 
 prob_conjunta = {
