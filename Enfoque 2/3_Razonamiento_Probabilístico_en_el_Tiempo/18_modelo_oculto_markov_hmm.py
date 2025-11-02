@@ -6,6 +6,7 @@ p_transicion = {
     'Llueve':    {'Llueve': 0.7, 'No Llueve': 0.3},
     'No Llueve': {'Llueve': 0.3, 'No Llueve': 0.7}
 }
+
 p_observacion = {
     'Llueve':    {'Paraguas': 0.9, 'No Paraguas': 0.1},
     'No Llueve': {'Paraguas': 0.2, 'No Paraguas': 0.8}
