@@ -96,6 +96,7 @@ if __name__ == "__main__":
     plt.grid(True)
     plt.show()
 
+
     print("Simulación completada. La gráfica muestra:")
     print(" - La trayectoria real (verde).")
     print(" - Las mediciones ruidosas (azul).")
