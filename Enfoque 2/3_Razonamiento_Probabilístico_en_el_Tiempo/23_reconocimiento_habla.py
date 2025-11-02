@@ -88,6 +88,7 @@ if __name__ == "__main__":
         matriz_emision
     )
 
+
     print("\nResultados")
     print(f"La secuencia de estados ocultos (clima) más probable es:")
     print(f"  -> {' -> '.join(secuencia_mas_probable)}")
