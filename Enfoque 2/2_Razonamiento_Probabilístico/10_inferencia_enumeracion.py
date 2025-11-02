@@ -1,5 +1,6 @@
 import itertools
 
+
 # Reutilizamos la definición de la Red Bayesiana
 estructura_bn = {
     'Nublado': [],
