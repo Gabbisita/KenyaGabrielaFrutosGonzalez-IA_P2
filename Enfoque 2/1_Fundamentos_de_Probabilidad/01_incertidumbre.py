@@ -15,6 +15,6 @@ for clima, prob in prob_clima_a_priori.items():
     # Esta línea debe tener 4 espacios al inicio
     print(f"  P(Clima={clima}) = {prob:.2f}")
 
-print(f"\nSuma total de probabilidades: {total_prob:.2f}")
+print(f"\nSuma total: {total_prob:.2f}")
 clima_mas_probable_a_priori = max(prob_clima_a_priori, key=prob_clima_a_priori.get)
 print(f"\nBasado solo en la probabilidad a priori, el clima más probable es: {clima_mas_probable_a_priori}")
