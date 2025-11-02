@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt # Necesitarás matplotlib: pip install matplotlib
 
+
 # Definición del Sistema y Parámetros del Filtro
 
 # Modelo de Estado (Lineal)
