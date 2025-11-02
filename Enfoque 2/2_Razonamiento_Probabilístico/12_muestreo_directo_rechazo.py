@@ -15,6 +15,7 @@ cpts_bn = {
 }
 variables_bn = ['Nublado', 'Aspersor', 'Lluvia', 'Pasto Mojado'] # Orden topológico
 
+
 # Funciones de Muestreo
 def elegir_valor_ponderado(distribucion):
     """Elige un valor (True/False) basado en sus probabilidades."""
